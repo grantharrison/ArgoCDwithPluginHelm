@@ -11,10 +11,12 @@ metadata:
     {{ $key }}: {{ $value | quote }}
   {{- end }}
   {{- end }}
-data: {{- include "argo-cd.config" $ | nindent 4 }}
+data:
+  application.instanceLabelKey: argocd.argoproj.io/instance
   configManagementPlugins: |-
     - name: argocd-vault-plugin
       generate:
         command: ["argocd-vault-plugin"]
         args: ["generate", "./"]
+  url: https://argocd.example.com
 {{- end }}
