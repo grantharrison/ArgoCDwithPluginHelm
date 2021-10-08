@@ -1,0 +1,163 @@
+apiVersion: v1
+entries:
+  argo-cd:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Added]: Use Istio port name naming convention for redis"
+    apiVersion: v2
+    appVersion: 2.1.3
+    created: "2021-10-08T14:12:34.8907754-07:00"
+    description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery tool for Kubernetes.
+    digest: cc10169e7787668f0102e2e217e38f77f5bba89f9e92e34e5d962d34735e8e45
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argoproj.github.io/argo-cd/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: seanson
+    name: argo-cd
+    urls:
+    - https://github.com/LexisNexis-RBA/ArgoCDwithVaultPluginHelm/charts/argo-cd-3.24.0.tgz
+    version: 3.24.0
+  argo-events:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Added]: Ability to specify additional/custom environment variables"
+        - "[Fixed]: Charts icon url"
+    apiVersion: v2
+    appVersion: 1.3.1
+    created: "2021-10-08T14:12:34.8917754-07:00"
+    description: A Helm chart to install Argo-Events in k8s Cluster
+    digest: 87c9e9b6dcf5e56c72c2f777f5aeacf46e6167562b9cbc08b7ed70bef0ecdea7
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argoproj.github.io/argo-events/assets/logo.png
+    keywords:
+    - argo-events
+    - sensor-controller
+    - eventsource-controller
+    - eventbus-controller
+    maintainers:
+    - name: VaibhavPage
+    - name: whynowy
+    name: argo-events
+    sources:
+    - https://github.com/argoproj/argo-events
+    urls:
+    - https://github.com/LexisNexis-RBA/ArgoCDwithVaultPluginHelm/charts/argo-events-1.7.0.tgz
+    version: 1.7.0
+  argo-rollouts:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Added]: Two separate tests. One for default values and one for dashboard enabled."
+    apiVersion: v2
+    appVersion: v1.0.2
+    created: "2021-10-08T14:12:34.8947754-07:00"
+    description: A Helm chart for Argo Rollouts
+    digest: b2948343e3eeea5389f419eb09ddf09b7449061da49fc900463b64f680ae26cc
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argoproj.github.io/argo-rollouts/assets/logo.png
+    maintainers:
+    - name: alexmt
+    - name: dthomson25
+    - name: jessesuen
+    name: argo-rollouts
+    urls:
+    - https://github.com/LexisNexis-RBA/ArgoCDwithVaultPluginHelm/charts/argo-rollouts-2.1.1.tgz
+    version: 2.1.1
+  argo-workflows:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Added]: Also test with default values"
+    apiVersion: v2
+    appVersion: v3.1.8
+    created: "2021-10-08T14:12:34.8967752-07:00"
+    description: A Helm chart for Argo Workflows
+    digest: d66ee2b1bef04129d07fc38ff1ea114ace4d1e95a8d65cf6434df042e5589577
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: benjaminws
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - https://github.com/LexisNexis-RBA/ArgoCDwithVaultPluginHelm/charts/argo-workflows-0.7.1.tgz
+    version: 0.7.1
+  argocd-applicationset:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Removed]: Duplicated default values during chart testing"
+    apiVersion: v2
+    appVersion: v0.2.0
+    created: "2021-10-08T14:12:34.9007762-07:00"
+    description: A Helm chart for installing ArgoCD ApplicationSet
+    digest: 2d822b3e428da084590624d6075fb553c329ee3306388103fe5f75195a5e429b
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argocd-applicationset.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - appset
+    - gitops
+    maintainers:
+    - name: maruina
+    name: argocd-applicationset
+    type: application
+    urls:
+    - https://github.com/LexisNexis-RBA/ArgoCDwithVaultPluginHelm/charts/argocd-applicationset-1.5.1.tgz
+    version: 1.5.1
+  argocd-image-updater:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Fixed]: Update default values example for extraArgs
+    apiVersion: v2
+    appVersion: v0.10.1
+    created: "2021-10-08T14:12:34.901776-07:00"
+    description: A Helm chart for Argo CD Image Updater, a tool to automatically update the container images of Kubernetes workloads which are managed by Argo CD
+    digest: cd4e9cd88d98720ffe6da14a60e1fb806a3911ebe358864fa7afb08dc57795a2
+    home: https://github.com/argoproj-labs/argocd-image-updater
+    icon: https://argocd-image-updater.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argocd-image-updater
+    type: application
+    urls:
+    - https://github.com/LexisNexis-RBA/ArgoCDwithVaultPluginHelm/charts/argocd-image-updater-0.2.1.tgz
+    version: 0.2.1
+  argocd-notifications:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Added]: Support annotations on secret objects"
+    apiVersion: v2
+    appVersion: 1.1.1
+    created: "2021-10-08T14:12:34.9037756-07:00"
+    description: A Helm chart for ArgoCD notifications, an add-on to ArgoCD.
+    digest: e6e3c0a28466a9bb265beac86c7d3449b55f1892c01ac46cb4bf7c6e1fdccfce
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argocd-notifications.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - argocd-notifications
+    maintainers:
+    - name: alexmt
+    - name: andyfeller
+    name: argocd-notifications
+    type: application
+    urls:
+    - https://github.com/LexisNexis-RBA/ArgoCDwithVaultPluginHelm/charts/argocd-notifications-1.5.1.tgz
+    version: 1.5.1
+generated: "2021-10-08T14:12:34.8827743-07:00"

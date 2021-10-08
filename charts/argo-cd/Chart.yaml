@@ -14,11 +14,11 @@ maintainers:
   - name: alexmt
   - name: jessesuen
   - name: seanson
-dependencies:
-  - name: redis-ha
-    version: 4.12.17
-    repository: https://github.com/LexisNexis-RBA/ArgoCDRedisHa/charts/
-    condition: redis-ha.enabled
+# dependencies:
+#   - name: redis-ha
+#     # version: 4.12.17
+#     repository: https://github.com/LexisNexis-RBA/ArgoCDRedisHa/charts/redis-ha/
+#     condition: redis-ha.enabled
 annotations:
   artifacthub.io/changes: |
     - "[Added]: Use Istio port name naming convention for redis"
