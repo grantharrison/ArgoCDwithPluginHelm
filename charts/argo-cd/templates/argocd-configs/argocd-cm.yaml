@@ -12,4 +12,9 @@ metadata:
   {{- end }}
   {{- end }}
 data: {{- include "argo-cd.config" $ | nindent 4 }}
+  configManagementPlugins: |-
+    - name: argocd-vault-plugin
+      generate:
+        command: ["argocd-vault-plugin"]
+        args: ["generate", "./"]
 {{- end }}
