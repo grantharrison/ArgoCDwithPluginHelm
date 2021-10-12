@@ -4,7 +4,7 @@ description: A Helm chart for installing ArgoCD ApplicationSet
 type: application
 version: 1.5.1
 appVersion: "v0.2.0"
-home: https://github.com/argoproj/argo-helm
+home: https://github.com/grantharrison/ArgoCDwithPluginHelm
 icon: https://argocd-applicationset.readthedocs.io/en/stable/assets/logo.png
 keywords:
   - argoproj

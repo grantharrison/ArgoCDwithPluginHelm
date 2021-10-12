@@ -4,7 +4,7 @@ description: A Helm chart for ArgoCD notifications, an add-on to ArgoCD.
 name: argocd-notifications
 type: application
 version: 1.5.1
-home: https://github.com/argoproj/argo-helm
+home: https://github.com/grantharrison/ArgoCDwithPluginHelm
 icon: https://argocd-notifications.readthedocs.io/en/stable/assets/logo.png
 keywords:
   - argoproj
