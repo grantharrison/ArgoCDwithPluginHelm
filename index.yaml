@@ -23,7 +23,7 @@ entries:
     name: argo-cd
     urls:
     # - https://github.com/grantharrison/ArgoCDwithPluginHelm/charts/.deploy/argo-cd-3.24.0.tgz
-    - https://github.com/grantharrison/ArgoCDwithPluginHelm/tree/gh-pages/.deploy/argo-cd-3.24.0.tgz
+    - argo-cd-3.24.0.tgz
     version: 3.24.0
   argo-events:
   - annotations:
